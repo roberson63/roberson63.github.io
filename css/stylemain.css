@@ -1,0 +1,59 @@
+body{
+	background-color: gray;
+}
+
+header{
+	text-align: center;
+	font-size: 120%;
+}
+
+.my-hobbies{
+	height: 275px;
+	background-color: lightblue;
+	text-align: center;
+	font-size: 125%;
+}
+.my-hobbies h2{
+	width: 100%;
+	float: left;
+}
+
+.card-games{
+	width: 35%;
+	float: left;
+}
+.board-games{
+	width: 30%;
+	float: left;
+}
+.other-hobbies {
+	width: 35%;
+	float: left;
+}
+
+.my-info{
+	width: 80%;
+	margin-left: 10%;
+	background-color: white;
+
+}
+.my-info h1{
+	margin-left: 425px;
+}
+.my-info h3{
+	text-align: center;
+	font-size: 220%;
+}
+.mypic{
+	margin-top: 100px;
+	padding-bottom: 50px;
+}
+
+.mypic img{
+	width: 220px;
+	height: 160px;
+	margin: 10px;
+}
+.church-link p{
+	font-size: 125%;
+}

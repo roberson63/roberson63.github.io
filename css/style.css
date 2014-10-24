@@ -1,0 +1,244 @@
+header{
+	width: 99.2%;
+	text-align: center;
+	background-color: blue;
+}
+
+header h3{
+	margin-bottom: 15px;
+	font-size: 150%;
+}
+h1{
+	font-size: 300%;
+}
+body{
+	background-color: lightgrey;
+}
+
+.con1main {
+	border: 2px solid black;
+	width: 65%;
+	height: 600px;
+	float: left;
+	background-color: lightblue;
+}
+.container {
+	height: 400px;
+	width: 99.1%;
+	border: 2px solid black;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+.section1{
+	margin-top: 10px;
+	margin-left: 40px;
+	width: 300px;
+	height: 340px;
+	border: 2px dashed darkblue;
+	float: left;
+}
+
+.section1 h2{
+	text-align: center;
+}
+
+.section1 img{
+	width: 200px;
+	height: 200px;
+	border: 5px ridge darkgray;
+	margin: 10px 0 0 43px;
+}
+.section2{
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 450px;
+	height: 300px;
+	padding: 20px;
+	border: 2px dashed darkblue;
+	float: left;
+}
+.sectionpic img{
+	margin: 5px 0 0 10px;
+	width: 90px;
+	height: 90px;
+	border: 3px solid black;
+	float: left;
+}
+.section3{
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 320px;
+	height: 300px;
+	padding: 20px;
+	border: 2px dashed darkblue;
+	float: left;
+}
+
+.section3 {
+	font-size: 150%;
+}
+
+.picbox {
+	position: relative;
+	width: 220px;
+	height: 150px;
+	border: 10px ridge blue;
+	margin-left: 30px;
+	margin-top: 10px;
+	float: left;
+	transition:all 300ms ease-out;
+
+
+}
+.picbox img {
+	width: 220px;
+	height: 150px;
+	float: left;
+}
+
+
+.con1about {
+	margin-left: 10px;
+	width: 33%;	
+	height: 600px;
+	display: inline-block;
+	background-color: teal;
+	font-size: 120%;
+	border: 2px solid black;
+}
+.con1title{
+	font-size: 150%;
+	text-align: center;
+}
+.container1 .main-title{
+	width: 97%;
+	height: 100px;
+	font-size: 150%;
+	text-align: center;
+}
+.con1message{
+	margin-left: 10px;
+}
+
+.footpic{
+	width: 20%;
+	height: 200px;
+	background-color: lightgreen;
+	float: left;
+	display: inline-block;
+}
+.footpic img{
+	width: 200px;
+	height: 150px;
+	margin: 25px 0 0 25px;
+	text-align: center;
+}
+.footmessage{
+	font-size: 150%;
+	width: 79.2%;
+	height: 200px;
+	color: darkblue;
+	background-color: lightgreen;
+	float: left;
+	display: inline-block;
+}
+
+
+
+
+.picbox .caption {
+	position: relative;
+	color: black;
+	z-index: 1;
+	transition:all 300ms ease-out;
+	left: 0;
+
+}
+
+.picbox .fade-caption {
+	position: relative;
+	margin-top: -178px;
+	margin-left: 63px;
+	opacity: 0;
+	width: 220px;
+	height: 150px;
+	text-align: left;
+	float: left;
+}
+
+.picbox:hover .fade-caption {
+	margin-top: -150px;
+	margin-left: 0;
+	text-align: center;
+	font-size: 150%;
+	color: white;
+	background-color: black;
+	opacity: 0.60;
+
+}
+.sectionpic img:hover{
+	border-color: maroon;
+}
+
+
+
+
+@media (max-width: 1300px){
+	.section3 {
+		display: none;
+	}
+	.con1main{
+		height: 700px;
+	}
+	.con1about{
+		height: 700px;
+		width: 200px;
+	}
+}
+@media (max-width: 1200px) {
+	
+	.footpic img {
+		display: none;
+	}
+}
+
+@media (max-width: 900px){
+	.section2{
+		display: none;
+	}
+	.section3 {
+		display: inline-block;
+	}
+	.con1main{
+		height: 1300px;
+	}
+	.con1about{
+		height: 700px;
+		width: 200px;
+	}
+	.footpic {
+		height: 400px;
+	}
+	.footmessage {
+		height: 400px;
+	}
+
+}
+@media (max-width: 770px){
+	.section1{
+		display: none;
+	}
+}
+@media (max-width: 600px){
+	.main-title{
+		display: none;
+	}
+}
+@media (max-width: 440px){
+	.con1main {
+		display: none;
+	}
+	.section3{
+		width: 250px;
+	}
+}
