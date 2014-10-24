@@ -242,3 +242,8 @@ body{
 		width: 250px;
 	}
 }
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
